@@ -1,0 +1,49 @@
+GAE 
+1)Cli install
+2)cli commands
+gclod init
+create new config (2)
+web-12 (name)
+login with gcp acc
+3)IN GCP
+go to console 
+
+select/create the project 
+
+add the billing account
+
+Go to app Engine
+
+In search bar search "Create an application  in an app Engine standard"
+
+open app creation
+
+slect python as lang and open console 
+
+in console 
+git clone https://github.com/GoogleCloudPlatform/python-docs-samples
+
+cd python-docs-samples/appengine/standard_python3
+/hello_world
+
+gcloud app deploy
+
+gcloud app browse
+
+done 
+
+4)open cli 
+keep the files in local system
+
+select the project Gae
+
+cd  //location of files in local machine
+
+gcloud app deploy
+
+gcloud app browse
+
+done 
+
+
+
