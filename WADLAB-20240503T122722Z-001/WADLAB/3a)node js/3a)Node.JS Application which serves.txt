@@ -1,0 +1,35 @@
+3a)Node.JS Application which serves a static website.
+
+1)create the folder name Assignment3a
+2)open it in vs code 
+3)open the folder in terminal by clicking cmd in path of the folder 
+4)on the terminal :(outer terminal)
+npm init
+enter
+enter
+Description :This is a Wad practicle 6
+enter 
+enter
+enter 
+author:Swanand
+enter 
+5)Go to Vs code see the package.json file
+6)make the new file index.js
+and write the code 
+const express =require('express');  //imported express modulue
+const app=express(); //called express 
+
+app.use(express.static('Public'))
+
+app.listen(4000,()=>{
+    console.log("Server is started");
+})
+7)(outer terminal)
+npm install express --save
+8)make one more folder name "Public and in that make a file index.html"
+9)Run that html file see the url done 
+10)now on outer terminal 
+node index.js
+
+see the both url 
+Done

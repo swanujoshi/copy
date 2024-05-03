@@ -1,0 +1,18 @@
+WAD 2A :Git and GitHub
+1) create a folder in laptop 
+2)open that folder in vs code
+3)make another folder name "PART-A"
+4)make a file txt  "File1.txt"
+5)write some thing in it 
+6)open the terminal 
+7)make a new repo on GitHub 
+8)Write  git commad  on terminal: 
+git --version
+git init
+git add .
+git status
+git remote add origin "copy the link from your GitHub https wali"
+git commit -m "First commit"
+git status
+git  push -u origin master
+9)verify on your github
