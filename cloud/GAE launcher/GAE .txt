@@ -1,7 +1,7 @@
 GAE 
 1)Cli install
 2)cli commands
-gclod init
+gcloud init
 create new config (2)
 web-12 (name)
 login with gcp acc
